@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  background: rgba(122, 119, 159, 0.568627451);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+header p:nth-of-type(2) {
+  margin-bottom: 24px;
+}
+
+h1 {
+  color: #144954;
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+h2 {
+  color: #54144b;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 750px;
+  margin: 24px auto;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(31, 2, 27, 0.726);
+  padding: 32px 16px;
+  margin-bottom: 32px;
+  background: #e6a3f3;
+}
+.card:nth-child(odd) {
+  background: #f3a3b2;
+}
+
+.avatar {
+  border-radius: 24px;
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
+  box-shadow: 1px 1px 4px rgba(31, 2, 27, 0.726);
+  margin-right: 36px;
+}
+
+.text-box {
+  max-width: 72%;
+}
+
+ol {
+  padding-left: 32px;
+}
+ol li {
+  position: relative;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 12px;
+  color: #cbfced;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transform: all 0.3;
+  outline-color: #029c6e;
+}
+a:visited {
+  color: #979797;
+}
+a:hover {
+  color: #029c6e;
+}
+a:focus-visible {
+  color: #029c6e;
+}
+a:active {
+  opacity: 0.5;
+}
+
+.btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  outline-color: #029c6e;
+  background: #54144b;
+  color: #fff;
+  font-family: inheriet;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transform: all 0.3;
+}
+.btn:hover {
+  box-shadow: 1px 1px 4px rgba(31, 2, 27, 0.726);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.box-input {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #54144b;
+  outline: #029c6e;
+  background: transparent;
+  color: #fff;
+  transition: all 0.3;
+}
+input:hover, textarea:hover {
+  border-bottom: 1px dashed #144954;
+}
+input:focus, textarea:focus {
+  border: 1px solid rgba(240, 43, 141, 0.3843137255);
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 96px;
+  margin-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  text-align-last: left;
+}
+
+th, td {
+  width: 33%;
+  border: 1px solid rgba(240, 43, 141, 0.3843137255);
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 96%;
+    min-width: 300px;
+  }
+  header {
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  h1 {
+    text-align: center;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .text-box {
+    max-width: 100%;
+  }
+}
+.card {
+  box-shadow: 0 0 4px rgba(31, 2, 27, 0.726);
+}/*# sourceMappingURL=style.css.map */

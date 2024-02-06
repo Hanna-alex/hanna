@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="резюме, frontend, джуниор, html, css, js" />
+    <meta name="description" content="Резюме frontend-разработчика (Джуниор)" />
+    <title>Резюме</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+     <header>
+       <img src="img/my_avatar.jpg" alt="Я на фото" width="220" 
+       class="avatar" />
+      <div class="text-box">
+        <h1>Анна Ипантьева</h1>
+      <p>Првет, я иду путем самурая frontend-разработки.</p>
+      <p>
+        В этом году я пройду курсы
+        <strong>Frontend-разработчик</strong> и найду 
+        <strong> новую работу</strong>,изучу что такое неоросетям и как данным инструментом пользоваться.
+      </p>
+
+      <h2>Список социальных сетей:</h2>
+     
+      <a href="https://github.com/Hanna-alex" target="_blank">Мой github</a>
+
+      <a href="https://id.vk.com/account/#/main" target="_blank"> Я в ВК</a>
+      </div>
+      <!-- /.text-box -->
+     </header>
+
+      <div class="card">
+        <h2>Мои хобби:</h2>
+        <ol>
+          <li>Чтение книг</li>
+          <li>Пешие прогулки</li>
+          <li>Печь вкусняшки</li>
+          <li>Изучать новое</li>
+          <li>Рисовать</li>
+        </щl>
+      </div>
+      <!-- /.card -->
+
+      <div class="card">
+        <table>
+          <caption>
+           <h2> Опыт работы</h2>
+          </caption>
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Период</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>СМК Питерлес</td>
+              <td>оператор 1С</td>
+              <td>октябрь 2023 - настоящее время</td>
+            </tr>
+            <tr>
+              <td>CMG</td>
+              <td>Финансовый ассистент</td>
+              <td>октябрь 2016 - апрель 2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- /.card -->
+
+      <div class="card card-form">
+        <h2>Связаться со мной</h2>
+        <form>
+          <div class="input-group">
+            <div class="box-input">
+            <label for="name">Ваше имя:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Введите имя"
+            />
+          </div>
+          <div class="box-input">
+            <label for="mail">Ваш email:</label>
+            <input type="email" id="mail" placeholder="Введите email" />
+          </div>
+          </div>
+          <!-- /.input-group -->
+          <div>
+            <label for="message"> Ваше сообщение: </label>
+           
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Ваше сообщение..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить!</button>
+        </form>
+      </div>
+      <!-- /.card -->
+    </div>
+    <!-- /.container -->
+  </body>
+</html>
